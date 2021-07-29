@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+    }
+
+    /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+    /*This style apply for flex of section element */
+    .plex {
+        display: flex;
+    }
+
+    .bg {
+        background-image: url(images/shapes/7.png);
+        height: 550px;
+        margin-bottom: 50px;
+    }
+
+    .order-food {
+        height: 750px;
+    }
+    
+    /*To make orange color */
+    .color-orange {
+        color: orange;
+    }
+    /* half-width1 & half-width2 classes 
+    apply to div of Order food area  */
+
+    .half-width1 {
+        margin-left: 100px;
+        margin-top: 170px;
+        width: 50%;
+    }
+
+    .half-width1 h1 {
+        font-size: 70px;
+        line-height: 30px;
+        color: rgb(109, 107, 107);
+    }
+
+    .half-width1,
+    .half-width4 p {
+        font-size: 20px;
+        color: gray;
+        line-height: 40px;
+    }
+
+    .half-width2 {
+        width: 50%;
+        margin-top: 100px;
+    }
+
+    .half-width2 img {
+        width: 80%;
+    }
+
+    /* half-width3 & half-width3 classes 
+    apply to div of About me area */
+
+    .half-width3 {
+        width: 50%;
+        margin-left: 150px;
+        margin-top: 26px;
+        
+    
+    }
+
+    .half-width3 img {
+        width: 85%;
+    }
+
+    .half-width4 {
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+
+    .half-width4 h2 {
+        color: rgb(112, 110, 110);
+        font-size: 40px;
+    }
+
+
+    /* This style apply to Button element */
+    .btn {
+        background-image: linear-gradient(60deg, orange, tomato);
+        padding: 20px 35px;
+        border: 1px solid transparent;
+        border-radius: 30px;
+        color: white;
+        font-size: 15px;
+    }
+
+    /*This style apply to my recipies area */
+    .my-recipies h2 {
+        text-align: center;
+        color: rgb(112, 110, 110);
+        font-size: 40px;
+    }
+
+    .my-recipies p {
+        color: gray;
+        line-height: 23px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /*This style apply to recipies title area */
+    .recipies {
+        margin-left: 5%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .recipie-title {
+        width: 25%;
+        box-shadow: 10px 10px 90px lightgray;
+        border-radius: 25px;
+        height: 500px;
+        margin-left: 5%;
+    }
+
+    .recipie-img img {
+        width: 88%;
+        border-radius: 25px;
+        margin: 20px;
+    }
+
+    .img1 img {
+        height: 250px;
+    }
+
+    .recipie-des {
+        margin-left: 10px;
+    }
+
+    .recipie-des p {
+        font-size: 14px;
+        color: gray;
+        line-height: 25px;
+        margin: 20px;
+    }
+
+    .recipie-des h2 {
+        margin: 20px;
+        line-height: 10px;
+        color: rgb(58, 57, 57);
+    }
+
+    /* This style apply to fan followers area */
+    .fan-followers {
+        margin: 10px 50px;
+    }
+
+    .fan {
+        border-radius: 15px;
+        box-shadow: 5px 5px 50px lightgray;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 60px;
+
+    }
+
+    .fan h1 {
+        font-size: 60px;
+        line-height: 10px;
+        color: rgb(70, 66, 66);
+    }
+
+    .fan p {
+        color: rgb(77, 75, 75);
+        font-size: 18px;
+    }
+
+    /* Food Network Area */
+    .food-network {
+        background-color: rgb(17, 16, 16);
+        width: 100%;
+        height: 250px;
+
+    }
+
+    .food-network h1 {
+        color: rgb(129, 126, 126);
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 50px;
+    }
+
+    .food-network p {
+        text-align: center;
+        color: rgb(185, 181, 181);
+        font-size: 13px;
+    }
+
+    .food-network span {
+        background: linear-gradient(to right, orange 0%, tomato 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
