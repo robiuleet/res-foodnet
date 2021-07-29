@@ -139,7 +139,7 @@
 
     /*This style apply to recipies title area */
     .recipies {
-        margin-left: 5%;
+        margin: 5%;
         margin-top: 50px;
         margin-bottom: 100px;
     }
@@ -149,7 +149,7 @@
         box-shadow: 10px 10px 90px lightgray;
         border-radius: 25px;
         height: 500px;
-        margin-left: 5%;
+        margin: 0px 20px;
     }
 
     .recipie-img img {
@@ -181,7 +181,7 @@
 
     /* This style apply to fan followers area */
     .fan-followers {
-        margin: 10px 50px;
+        margin: 10px 5%;
     }
 
     .fan {
@@ -189,7 +189,7 @@
         box-shadow: 5px 5px 50px lightgray;
         display: flex;
         justify-content: space-around;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
 
     }
 

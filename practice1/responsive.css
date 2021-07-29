@@ -1,0 +1,205 @@
+    @media only screen and (max-width: 600px) {
+        body {
+        background-color: transparent;
+        }
+        .order-food, .bg {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 350px;
+            width: 400px;
+        }
+        .order-food{
+            flex-direction: column-reverse;
+        }
+        /*To make orange color */
+    .color-orange {
+        color: orange;
+    }
+    /* half-width1 & half-width2 classes 
+    apply to div of Order food area  */
+
+    .half-width1 {
+        margin-left: 5px;
+        margin-top: 5px;
+        
+    }
+
+    .half-width1 h1 {
+        font-size: 20px;
+        line-height: 8px;
+        color: rgb(109, 107, 107);
+    }
+
+    .half-width1,
+    .half-width4 p {
+        font-size: 8px;
+        color: gray;
+        line-height: 10px;
+    }
+
+    .half-width2 {
+        width: 50%;
+        margin-top: 100px;
+    }
+
+    .half-width2 img {
+        width: 100%;
+    }
+    .btn {
+        background-image: linear-gradient(60deg, orange, tomato);
+        padding: 5px 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        color: white;
+        font-size: 5px;
+    }
+    .bg{
+        background-image: url();
+        
+    }
+    .half-width3{
+        margin: auto;
+    }
+    .half-width3 img {
+        width: 100%;
+        
+    }
+    
+    .half-width4 {
+        margin: 5px;
+      
+    }
+
+    .half-width4 h2 {
+        color: rgb(112, 110, 110);
+        font-size: 13px;
+    }
+
+    /* My Recipies Area */
+
+    .my-recipies h2 {
+        text-align: center;
+        color: rgb(112, 110, 110);
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .my-recipies p {
+        color: gray;
+        line-height: 12px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    /*This style apply to recipies title area */
+    .recipies {
+        margin-left: 5%;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .recipie-title {
+        box-shadow: 10px 10px 90px lightgray;
+        border-radius: 20px;
+        height: 350px;
+        margin: 5%;
+        width: 80%;
+
+    }
+
+    .recipie-img img {
+        width: 92%;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .img1 img {
+        height: 200px;
+        
+    }
+
+    .recipie-des {
+        margin-left: 10px;
+    }
+
+    .recipie-des p {
+        font-size: 8px;
+        color: gray;
+        line-height: 11px;
+        margin: 10px;
+    }
+
+    .recipie-des h2 {
+        margin: 10px;
+        line-height: 10px;
+        color: rgb(58, 57, 57);
+        font-size: 20px;
+    }
+
+    /* This style apply to fan followers area */
+    .fan-followers {
+        
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .fan {
+        border-radius: 15px;
+        box-shadow: 5px 5px 50px lightgray;
+        display: flex;
+        justify-content: space-around;
+        
+        margin-bottom: 60px;
+        
+
+    }
+
+    .fan h1 {
+        font-size: 22px;
+        line-height: 5px;
+        color: rgb(70, 66, 66);
+    }
+
+    .fan p {
+        color: rgb(77, 75, 75);
+        font-size: 9px;
+    }
+
+      /* Food Network Area */
+      .food-network {
+        background-color: rgb(17, 16, 16);
+        width: 350px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .food-network h1 {
+        color: rgb(129, 126, 126);
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    .food-network p {
+        text-align: center;
+        color: rgb(185, 181, 181);
+        font-size: 10px;
+    }
+
+    .food-network span {
+        background: linear-gradient(to right, orange 0%, tomato 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+
+
+        
+    }
